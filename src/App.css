@@ -65,6 +65,11 @@ button:hover{
   justify-content: space-between;
   align-items: center;
 }
+.button-wrapper{
+  display: flex;
+  gap: 2px;
+  align-self: flex-end;
+}
 
 .todo-form{
   padding-bottom: 1.5rem;
@@ -93,7 +98,7 @@ width: 100%;
 .filter-options{
   display: flex;
   justify-content: space-between;
-  gap: 3rem;
+  gap: 10rem;
   
 }
 

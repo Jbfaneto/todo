@@ -50,7 +50,7 @@ function App() { // function that set some examples of todos
       );
       setTodos(filteredTodos);
   };
- //funtion that complete the todos
+ //funtion that completes the todos
   const completeTodo = (id) => {
     const newTodos = [...todos]
     newTodos.map((todo) => 
