@@ -9,7 +9,7 @@ import './App.css'
 
 
 
-function App() { // function that set some examples of todos
+function App() { // function that sets some examples of todos
   const [todos, setTodos] = useState([
     {
       id: 1,
